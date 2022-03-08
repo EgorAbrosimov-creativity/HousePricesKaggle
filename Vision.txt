@@ -1,0 +1,8 @@
+Stage 1:
+    1) Data load
+    2) Data prep
+    3) Modelling
+        -baseline
+        -best model
+    4) Interpretation
+    
