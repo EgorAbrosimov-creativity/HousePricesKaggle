@@ -5,4 +5,35 @@ Stage 1:
         -baseline
         -best model
     4) Interpretation
+Stage 1 results:
+    Лучшая модель на трейне дала 26к, на валидации 29485.
+    Убрали выбросы и не помогло
+    Конечные фичи проанализировали не все
+    Посмотрели на худшие кейсы - недопрогнозируем
+  Идеи:
+
+
+
+Stage 2 plan:
+
+    new data prep notebook [DONE]
+        @train and val
+        @make prep script
+        @make predict script
     
+    new rf notebook [DONE]
+        @one plus log
+        @best model
+        @importances
+        @prediction
+    
+    boosting [DONE]
+    
+    neural net [DONE]
+
+    interpretation with rf
+    
+    new ideas from top notebooks on Kaggle
+
+    xgboost
+    lightgbm
